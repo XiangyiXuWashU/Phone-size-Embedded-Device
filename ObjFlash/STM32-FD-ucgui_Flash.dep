@@ -1,0 +1,1488 @@
+Dependencies for Project 'STM32-FD-ucgui', Target 'Flash': (DO NOT MODIFY !)
+F (..\Startup\stm32f10x_startup.s)(0x4B089240)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o ..\objflash\stm32f10x_startup.o --depend ..\objflash\stm32f10x_startup.d)
+F (.\app.c)(0x549D0290)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\app.o --omf_browse ..\objflash\app.crf --depend ..\objflash\app.d)
+I (includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (app_cfg.h)(0x4E15DDDE)
+I (os_cfg.h)(0x4E12350E)
+I (..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\BSP\bsp.h)(0x4E0A4D28)
+I (..\Touch\ads7843.h)(0x4B117B86)
+I (..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\GUIinc\GUI_X.h)(0x4124C250)
+I (demo.h)(0x4E163438)
+F (.\stm32f10x_it.c)(0x549F1483)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\stm32f10x_it.o --omf_browse ..\objflash\stm32f10x_it.crf --depend ..\objflash\stm32f10x_it.d)
+I (includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (app_cfg.h)(0x4E15DDDE)
+I (os_cfg.h)(0x4E12350E)
+I (..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\BSP\bsp.h)(0x4E0A4D28)
+I (..\Touch\ads7843.h)(0x4B117B86)
+I (..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\GUIinc\GUI_X.h)(0x4124C250)
+I (demo.h)(0x4E163438)
+F (.\Fun.c)(0x4E12335E)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\fun.o --omf_browse ..\objflash\fun.crf --depend ..\objflash\fun.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x541A706A)
+I (..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\GUIinc\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\GUIinc\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\GUIinc\..\APP\os_cfg.h)(0x4E12350E)
+I (..\GUIinc\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\GUIinc\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\GUIinc\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\GUIinc\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\GUIinc\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\GUIinc\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\GUIinc\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\GUIinc\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\GUIinc\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\GUIinc\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\GUIinc\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\GUIinc\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\GUIinc\..\APP\..\GUIinc\lcd.h)(0x4E0CB064)
+I (..\GUIinc\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\GUIinc\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+I (..\GUIinc\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\GUIinc\WM.h)(0x4124C252)
+I (..\GUIinc\WM_GUI.h)(0x4124C252)
+I (..\GUIinc\DIALOG.h)(0x4124C252)
+I (..\GUIinc\BUTTON.h)(0x4124C252)
+I (..\GUIinc\DIALOG_Intern.h)(0x4124C252)
+I (..\GUIinc\WIDGET.h)(0x4124C252)
+I (..\GUIinc\WM_Intern.h)(0x4124C252)
+I (..\GUIinc\GUI_Protected.h)(0x4124C250)
+I (..\GUIinc\LCD_Protected.h)(0x4124C250)
+I (..\GUIinc\GUIDebug.h)(0x4124C250)
+I (..\GUIinc\SCROLLBAR.h)(0x4124C252)
+I (..\GUIinc\CHECKBOX.h)(0x4124C252)
+I (..\GUIinc\DROPDOWN.h)(0x4124C252)
+I (..\GUIinc\EDIT.h)(0x4124C252)
+I (..\GUIinc\FRAMEWIN.h)(0x4124C252)
+I (..\GUIinc\LISTBOX.h)(0x4124C252)
+I (..\GUIinc\MULTIEDIT.h)(0x4124C252)
+I (..\GUIinc\RADIO.h)(0x4124C252)
+I (..\GUIinc\SLIDER.h)(0x4124C252)
+I (..\GUIinc\TEXT.h)(0x4124C252)
+I (demo.h)(0x4E163438)
+F (..\BSP\bsp.c)(0x50CA2954)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\bsp.o --omf_browse ..\objflash\bsp.crf --depend ..\objflash\bsp.d)
+I (..\BSP\..\App\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\BSP\..\App\app_cfg.h)(0x4E15DDDE)
+I (..\BSP\..\App\os_cfg.h)(0x4E12350E)
+I (..\BSP\..\App\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\BSP\..\App\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\BSP\..\App\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\BSP\..\App\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\BSP\..\App\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\BSP\..\App\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\BSP\..\App\..\Touch\ads7843.h)(0x4B117B86)
+I (..\BSP\..\App\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\BSP\..\App\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\BSP\..\App\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\BSP\..\App\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\BSP\..\App\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\BSP\..\App\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\BSP\..\App\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\BSP\..\App\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\BSP\..\App\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\BSP\..\App\..\GUIinc\GUI_X.h)(0x4124C250)
+I (..\APP\demo.h)(0x4E163438)
+F (..\FWlib\SRC\misc.c)(0x4D791CB4)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\misc.o --omf_browse ..\objflash\misc.crf --depend ..\objflash\misc.d)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+F (..\FWlib\SRC\stm32f10x_fsmc.c)(0x4D791CB4)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\stm32f10x_fsmc.o --omf_browse ..\objflash\stm32f10x_fsmc.crf --depend ..\objflash\stm32f10x_fsmc.d)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+F (..\FWlib\SRC\stm32f10x_gpio.c)(0x4D7ACFC6)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\stm32f10x_gpio.o --omf_browse ..\objflash\stm32f10x_gpio.crf --depend ..\objflash\stm32f10x_gpio.d)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+F (..\FWlib\SRC\stm32f10x_spi.c)(0x4D791CB4)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\stm32f10x_spi.o --omf_browse ..\objflash\stm32f10x_spi.crf --depend ..\objflash\stm32f10x_spi.d)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+F (..\FWlib\SRC\stm32f10x_rcc.c)(0x4D791CB4)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\stm32f10x_rcc.o --omf_browse ..\objflash\stm32f10x_rcc.crf --depend ..\objflash\stm32f10x_rcc.d)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+F (..\FWlib\SRC\stm32f10x_exti.c)(0x4D791CB4)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\stm32f10x_exti.o --omf_browse ..\objflash\stm32f10x_exti.crf --depend ..\objflash\stm32f10x_exti.d)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+F (..\FWlib\SRC\stm32f10x_dma.c)(0x4D791CB4)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\stm32f10x_dma.o --omf_browse ..\objflash\stm32f10x_dma.crf --depend ..\objflash\stm32f10x_dma.d)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+F (..\FWlib\SRC\stm32f10x_usart.c)(0x4D791CB4)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\stm32f10x_usart.o --omf_browse ..\objflash\stm32f10x_usart.crf --depend ..\objflash\stm32f10x_usart.d)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+F (..\FWlib\SRC\stm32f10x_adc.c)(0x4D791CB4)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\stm32f10x_adc.o --omf_browse ..\objflash\stm32f10x_adc.crf --depend ..\objflash\stm32f10x_adc.d)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+F (..\uCOS-II\Ports\os_cpu_c.c)(0x4B08E6C8)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\os_cpu_c.o --omf_browse ..\objflash\os_cpu_c.crf --depend ..\objflash\os_cpu_c.d)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\os_cfg.h)(0x4E12350E)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+F (..\uCOS-II\Ports\os_dbg.c)(0x4B08E768)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\os_dbg.o --omf_browse ..\objflash\os_dbg.crf --depend ..\objflash\os_dbg.d)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\os_cfg.h)(0x4E12350E)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\uCOS-II\Ports\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+F (..\uCOS-II\Ports\os_cpu_a.asm)(0x49B9557C)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o ..\objflash\os_cpu_a.o --depend ..\objflash\os_cpu_a.d)
+F (..\uCOS-II\uC-CPU\cpu_a.asm)(0x49B6B5E0)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o ..\objflash\cpu_a.o --depend ..\objflash\cpu_a.d)
+F (..\uCOS-II\Source\os_core.c)(0x4B08E704)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\os_core.o --omf_browse ..\objflash\os_core.crf --depend ..\objflash\os_core.d)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\os_cfg.h)(0x4E12350E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+F (..\uCOS-II\Source\os_flag.c)(0x4B08E70E)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\os_flag.o --omf_browse ..\objflash\os_flag.crf --depend ..\objflash\os_flag.d)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\os_cfg.h)(0x4E12350E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+F (..\uCOS-II\Source\os_mbox.c)(0x4B08E716)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\os_mbox.o --omf_browse ..\objflash\os_mbox.crf --depend ..\objflash\os_mbox.d)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\os_cfg.h)(0x4E12350E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+F (..\uCOS-II\Source\os_mem.c)(0x4B08E724)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\os_mem.o --omf_browse ..\objflash\os_mem.crf --depend ..\objflash\os_mem.d)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\os_cfg.h)(0x4E12350E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+F (..\uCOS-II\Source\os_mutex.c)(0x4B08E72E)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\os_mutex.o --omf_browse ..\objflash\os_mutex.crf --depend ..\objflash\os_mutex.d)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\os_cfg.h)(0x4E12350E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+F (..\uCOS-II\Source\os_q.c)(0x4B08E736)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\os_q.o --omf_browse ..\objflash\os_q.crf --depend ..\objflash\os_q.d)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\os_cfg.h)(0x4E12350E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+F (..\uCOS-II\Source\os_sem.c)(0x4B08E740)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\os_sem.o --omf_browse ..\objflash\os_sem.crf --depend ..\objflash\os_sem.d)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\os_cfg.h)(0x4E12350E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+F (..\uCOS-II\Source\os_task.c)(0x4B08E76E)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\os_task.o --omf_browse ..\objflash\os_task.crf --depend ..\objflash\os_task.d)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\os_cfg.h)(0x4E12350E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+F (..\uCOS-II\Source\os_time.c)(0x4B08E74C)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\os_time.o --omf_browse ..\objflash\os_time.crf --depend ..\objflash\os_time.d)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\os_cfg.h)(0x4E12350E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+F (..\uCOS-II\Source\os_tmr.c)(0x4B08E752)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\os_tmr.o --omf_browse ..\objflash\os_tmr.crf --depend ..\objflash\os_tmr.d)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\os_cfg.h)(0x4E12350E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\uCOS-II\Source\..\..\uCOS-II\Source\..\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+F (..\uCGUILib\uCGUI_DEMO.lib)(0x53EAF76F)()
+F (.\readme.txt)(0x4E1338C0)()
+F (..\uCOS-IIGUI_X\GUI_X_Touch.c)(0x4E0CFEA6)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\gui_x_touch.o --omf_browse ..\objflash\gui_x_touch.crf --depend ..\objflash\gui_x_touch.d)
+I (..\uCOS-IIGUI_X\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\uCOS-IIGUI_X\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\uCOS-IIGUI_X\..\APP\os_cfg.h)(0x4E12350E)
+I (..\uCOS-IIGUI_X\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-IIGUI_X\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-IIGUI_X\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-IIGUI_X\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-IIGUI_X\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-IIGUI_X\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\uCOS-IIGUI_X\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\uCOS-IIGUI_X\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCOS-IIGUI_X\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCOS-IIGUI_X\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCOS-IIGUI_X\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\uCOS-IIGUI_X\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\uCOS-IIGUI_X\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\uCOS-IIGUI_X\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\uCOS-IIGUI_X\..\APP\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\uCOS-IIGUI_X\..\APP\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\uCOS-IIGUI_X\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+F (..\uCOS-IIGUI_X\GUI_X_uCOS.c)(0x4B08E5E0)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\gui_x_ucos.o --omf_browse ..\objflash\gui_x_ucos.crf --depend ..\objflash\gui_x_ucos.d)
+I (..\uCOS-IIGUI_X\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\uCOS-IIGUI_X\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\uCOS-IIGUI_X\..\APP\os_cfg.h)(0x4E12350E)
+I (..\uCOS-IIGUI_X\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\uCOS-IIGUI_X\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\uCOS-IIGUI_X\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\uCOS-IIGUI_X\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\uCOS-IIGUI_X\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\uCOS-IIGUI_X\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\uCOS-IIGUI_X\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\uCOS-IIGUI_X\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\uCOS-IIGUI_X\..\APP\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\uCOS-IIGUI_X\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\uCOS-IIGUI_X\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\uCOS-IIGUI_X\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\uCOS-IIGUI_X\..\APP\..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\uCOS-IIGUI_X\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\uCOS-IIGUI_X\..\APP\..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\uCOS-IIGUI_X\..\APP\..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\uCOS-IIGUI_X\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+I (..\uCOS-IIGUI_X\..\GUIinc\GUI_Private.H)(0x4124C250)
+I (..\uCOS-IIGUI_X\..\GUIinc\GUI_Protected.h)(0x4124C250)
+I (..\uCOS-IIGUI_X\..\GUIinc\LCD_Protected.h)(0x4124C250)
+I (..\uCOS-IIGUI_X\..\GUIinc\GUIDebug.h)(0x4124C250)
+I (..\uCOS-IIGUI_X\..\GUIinc\WM_GUI.h)(0x4124C252)
+I (..\uCOS-IIGUI_X\..\GUIinc\LCD_Private.h)(0x4124C250)
+I (..\uCOS-IIGUI_X\..\GUIinc\LCD_ConfDefaults.h)(0x4B0FFF48)
+I (..\uCOS-IIGUI_X\..\GUIinc\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+F (..\TFT\fsmc_sram.c)(0x50CA1728)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\fsmc_sram.o --omf_browse ..\objflash\fsmc_sram.crf --depend ..\objflash\fsmc_sram.d)
+I (..\TFT\fsmc_sram.h)(0x4B01C806)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+F (..\TFT\lcd.c)(0x53978ACC)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\lcd.o --omf_browse ..\objflash\lcd.crf --depend ..\objflash\lcd.d)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\TFT\lcd.h)(0x50CA194E)
+I (..\TFT\lcd_font.h)(0x4B06DE6C)
+I (..\uCGUIConfig\lcdconf.h)(0x50CA299B)
+F (..\TFT\lcd_api.c)(0x50CA2570)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\lcd_api.o --omf_browse ..\objflash\lcd_api.crf --depend ..\objflash\lcd_api.d)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\TFT\LCD.h)(0x50CA194E)
+F (..\TFT\lcd_ucgui.c)(0x50CA2593)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\lcd_ucgui.o --omf_browse ..\objflash\lcd_ucgui.crf --depend ..\objflash\lcd_ucgui.d)
+I (..\GUIinc\LCD_Private.h)(0x4124C250)
+I (..\GUIinc\LCD_ConfDefaults.h)(0x4B0FFF48)
+I (..\GUIinc\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\GUIinc\GUI_ConfDefaults.h)(0x4B034A34)
+I (..\GUIinc\..\uCGUIConfig\GUIConf.h)(0x4BCF9158)
+I (..\GUIinc\LCD_Protected.h)(0x4124C250)
+I (..\GUIinc\LCD.h)(0x4E0CB064)
+I (..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\GUIinc\..\APP\includes.h)(0x4E0DF60A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+I (..\GUIinc\..\APP\app_cfg.h)(0x4E15DDDE)
+I (..\GUIinc\..\APP\os_cfg.h)(0x4E12350E)
+I (..\GUIinc\..\APP\..\uCOS-II\uC-CPU\cpu.h)(0x4B08E308)
+I (..\GUIinc\..\APP\..\uCOS-II\uC-CPU\..\..\APP\includes.h)(0x4E0DF60A)
+I (..\GUIinc\..\APP\..\uCOS-II\uC-CPU\cpu_def.h)(0x49B8A608)
+I (..\GUIinc\..\APP\..\uCOS-II\Ports\os_cpu.h)(0x486535AE)
+I (..\GUIinc\..\APP\..\uCOS-II\Source\ucos_ii.h)(0x4B08DFCA)
+I (..\GUIinc\..\APP\..\BSP\bsp.h)(0x4E0A4D28)
+I (..\GUIinc\..\APP\..\Touch\ads7843.h)(0x4B117B86)
+I (..\GUIinc\..\APP\..\Touch\calibrate.h)(0x4AA774B0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x541A706A)
+I (..\GUIinc\..\APP\..\uCGUIConfig\GUITouchConf.h)(0x4BFDA464)
+I (..\GUIinc\..\APP\..\uCGUIConfig\LCDConf.h)(0x50CA299B)
+I (..\GUIinc\..\APP\..\GUIinc\GUI.h)(0x4BD610AE)
+I (..\GUIinc\..\APP\..\GUIinc\GUI_X.h)(0x4124C250)
+I (..\GUIinc\..\APP\..\GUIinc\GUIType.h)(0x4B034A3E)
+I (..\GUIinc\GUIVersion.h)(0x412B52C0)
+I (..\GUIinc\GUI_Private.h)(0x4124C250)
+I (..\GUIinc\GUI_Protected.h)(0x4124C250)
+I (..\GUIinc\GUIDebug.h)(0x4124C250)
+I (..\GUIinc\WM_GUI.h)(0x4124C252)
+I (..\TFT\LCD.h)(0x50CA194E)
+F (..\TFT\lcddrv.c)(0x5397DA5A)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\lcddrv.o --omf_browse ..\objflash\lcddrv.crf --depend ..\objflash\lcddrv.d)
+I (..\TFT\fsmc_sram.h)(0x4B01C806)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)
+F (..\CM3\core_cm3.c)(0x4C0D2B6E)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\core_cm3.o --omf_browse ..\objflash\core_cm3.crf --depend ..\objflash\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+F (..\CM3\system_stm32f10x.c)(0x4D791DB0)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\FWLib\inc -I..\Startup -I..\uCOS-II\Source -I..\uCOS-II\uC-CPU -I..\uCOS-II\uC-LIB -I..\uCOS-II\Ports -I..\uCGUIConfig -I..\uCGUI\emWinDemo -I..\GUIinc -I..\TFT -I..\uCGUI\uCGUIDemo -I..\CM3-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL-o ..\objflash\system_stm32f10x.o --omf_browse ..\objflash\system_stm32f10x.crf --depend ..\objflash\system_stm32f10x.d)
+I (..\CM3\stm32f10x.h)(0x4E0DF79A)
+I (..\CM3\core_cm3.h)(0x4D531C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)
+I (..\CM3\system_stm32f10x.h)(0x4D791DAA)
+I (..\APP\stm32f10x_conf.h)(0x4B0D5D1C)
+I (..\FWLib\inc\stm32f10x_adc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_bkp.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_can.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_crc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dac.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_dma.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_exti.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_flash.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_fsmc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_gpio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_i2c.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_iwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_pwr.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rcc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_rtc.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_sdio.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_spi.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_tim.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_usart.h)(0x4D791CB4)
+I (..\FWLib\inc\stm32f10x_wwdg.h)(0x4D791CB4)
+I (..\FWLib\inc\misc.h)(0x4D791CB4)

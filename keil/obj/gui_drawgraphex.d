@@ -1,0 +1,13 @@
+.\obj\gui_drawgraphex.o: ..\GUI_GRAPH\GUI_DrawGraphEx.c
+.\obj\gui_drawgraphex.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\obj\gui_drawgraphex.o: ..\GUIinc\GUI_Protected.h
+.\obj\gui_drawgraphex.o: ..\GUIinc\GUI.h
+.\obj\gui_drawgraphex.o: ..\GUIinc\GUI_ConfDefaults.h
+.\obj\gui_drawgraphex.o: ..\GUIinc\..\uCGUIConfig\GUIConf.h
+.\obj\gui_drawgraphex.o: ..\GUIinc\GUIType.h
+.\obj\gui_drawgraphex.o: ..\GUIinc\LCD.h
+.\obj\gui_drawgraphex.o: ..\GUIinc\GUIVersion.h
+.\obj\gui_drawgraphex.o: ..\GUIinc\LCD_Protected.h
+.\obj\gui_drawgraphex.o: ..\GUIinc\GUIDebug.h
+.\obj\gui_drawgraphex.o: ..\GUIinc\GUI_X.h
+.\obj\gui_drawgraphex.o: ..\GUIinc\WM_GUI.h
