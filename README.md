@@ -2,6 +2,8 @@
 Phone-size Embedded Device for Sensing Application
 We develop a compact whispering-gallery-mode (WGM) sensing system by integrating multiple components, including a tunable laser, a temperature controller, a function generator, an oscilloscope, a photodiode detector, and a testing computer, into a phone-sized embedded system. We demonstrate a thermal sensing experiment by using this portable system. Such a system successfully eliminates bulky measurement equipment required for characterizing optical resonators and will open up new avenues for practical sensing applications by using ultra-high Q WGM resonators.
 
+**Primary Code is in APP file**
+
 **Publication Link:**
 [Phone-sized whispering-gallery microresonator sensing system](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-24-23-25905)
 
