@@ -10,6 +10,7 @@ We develop a compact whispering-gallery-mode (WGM) sensing system by integrating
 
 ![image](https://user-images.githubusercontent.com/44279169/47262269-d0a78080-d4a9-11e8-9c08-b18dfd0266ae.png)
 
+![image](https://user-images.githubusercontent.com/44279169/47515891-9fcca000-d849-11e8-8897-3235346a1860.png)
 
 **Software Design**
 
