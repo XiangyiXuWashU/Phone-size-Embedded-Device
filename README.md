@@ -12,6 +12,8 @@ We develop a compact whispering-gallery-mode (WGM) sensing system by integrating
 
 ![image](https://user-images.githubusercontent.com/44279169/47515891-9fcca000-d849-11e8-8897-3235346a1860.png)
 
+![image](https://user-images.githubusercontent.com/44279169/47515993-daced380-d849-11e8-9787-c6142730b26f.png)
+
 **Software Design**
 
 - 1. Embedded C (Programming language)
